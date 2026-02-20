@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="sec_sd_health_visit_no" model="ir.sequence">
+        <field name="name">Lab Results No</field>
+        <field name="code">sd_health.lab_results</field>
+        <field name="padding">5</field>
+        <field name="prefix">LR</field>
+        <field name="implementation">no_gap</field>
+        <field name="number_next">1</field>
+        <field name="number_next_actual">00001</field>
+        <field name="company_id" eval="False"/>
+    </record>
+
+</odoo>

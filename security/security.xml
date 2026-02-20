@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.module.category" id="module_category_sd_health">
+        <field name="name">sd_health</field>
+        <field name="description">requests.</field>
+    </record>
+
+    <record id="group_users" model="res.groups">
+        <field name="name">Users</field>
+        <field name="category_id" ref="module_category_sd_health"/>
+        <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+    </record>
+
+    <record id="group_doctors" model="res.groups">
+        <field name="name">Doctors</field>
+        <field name="category_id" ref="module_category_sd_health"/>
+        <field name="implied_ids" eval="[(4, ref('group_users'))]"/>
+    </record>
+
+    <record id="group_admins" model="res.groups">
+        <field name="name">Admins</field>
+        <field name="category_id" ref="module_category_sd_health"/>
+        <field name="implied_ids" eval="[(4, ref('group_doctors'))]"/>
+    </record>
+
+
+    <record id="base.group_system" model="res.groups">
+        <field name="implied_ids" eval="[(4, ref('sd_health.group_admins'))]"/>
+    </record>
+
+
+</odoo>

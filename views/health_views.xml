@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+
+
+    <menuitem name="Health"
+              id="health_menu"
+              groups="sd_health.group_users"/>
+
+    <menuitem name="Configuration"
+              id="configuration_menu"
+              parent="health_menu"
+              groups="sd_health.group_admins"/>
+
+</odoo>
