@@ -90,6 +90,16 @@
     </record>
 
 
+    <menuitem name="Health"
+              id="health_menu"
+              action="patients_act_window"
+              groups="sd_health.group_users"/>
+
+    <menuitem name="Configuration"
+              id="configuration_menu"
+              parent="health_menu"
+              sequence="999"
+              groups="sd_health.group_admins"/>
 
     <menuitem name="Patients"
               id="patients_menu"
