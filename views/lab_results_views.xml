@@ -8,9 +8,10 @@
             <field name="arch" type="xml">
                 <list >
                     <field name="patient_id"/>
-                    <field name="age"/>
+                    <field name="age" readonly="1"/>
                     <field name="record_date"/>
                     <button name="show_results" string="Results" type="object" class="btn btn-primary"/>
+                    <button name="print_results" string="Print" type="object" class="btn btn-primary"/>
 
                 </list>
             </field>
@@ -34,7 +35,7 @@
                             <group>
                                 <field name="name" placeholder="Result ID" readonly="1" invisible="1"/>
                                 <field name="gender"/>
-                                <field name="age"/>
+                                <field name="age" readonly="1"/>
                                 <field name="record_date"/>
                                 <field name="weight"/>
                             </group>
@@ -48,6 +49,7 @@
                                 <field name="hdl"/>
                                 <field name="smoker" widget="boolean_toggle"/>
                                 <button name="show_results" string="Results" type="object" class="btn btn-primary"/>
+                                <button name="print_results" string="Print" type="object" class="btn btn-primary"/>
 
 
                             </group>
@@ -83,7 +85,7 @@
 
                                 <field name="name" placeholder="Result ID" readonly="1" invisible="1"/>
                                 <field name="gender" readonly="1"/>
-                                <field name="age"/>
+                                <field name="age" readonly="1"/>
                                 <field name="record_date" invisible="1"/>
                                 <field name="height" readonly="1"/>
                                 <field name="weight" readonly="1"/>
@@ -124,6 +126,7 @@
                     </sheet>
                     <footer>
                         <button string="Close" special="cancel" class="btn btn-secondary"/>
+                        <button name="print_results" string="Print" type="object" class="btn btn-primary"/>
                     </footer>
 
                     <chatter/>
@@ -162,7 +165,7 @@
         <field name="view_mode">list,form</field>
     </record>
 
-    <menuitem name="lab_results"
+    <menuitem name="Lab Results"
               id="lab_results_menu"
               parent="configuration_menu"
               action="lab_results_act_window"

@@ -29,6 +29,8 @@
         'views/lab_results_views.xml',
         'views/patients_views.xml',
         'data/ir_sequence.xml',
+        'report/lab_result_report_template.xml',
+        'report/lab_result_report.xml',
 
 
         ],

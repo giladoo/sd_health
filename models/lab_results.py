@@ -14,7 +14,7 @@ class SdHealthLabResults(models.Model):
     patient_id = fields.Many2one('sd_health.patients')
     gender = fields.Selection(related='patient_id.gender')
     height = fields.Float(related='patient_id.height')
-    age = fields.Integer(compute='_age_compute', store=True)
+    age = fields.Integer(compute='_age_compute', store=True, readonly=False)
     record_date = fields.Date(required=True, tracking=True, default=fields.Date.context_today)
     weight = fields.Float()
     hba1c = fields.Float()
@@ -26,8 +26,8 @@ class SdHealthLabResults(models.Model):
     hdl = fields.Float()
     smoker = fields.Boolean()
     description = fields.Text()
-    bmi = fields.Float(compute="_bmi_calculation")
 
+    bmi = fields.Float(compute="_bmi_calculation")
     lpa_score = fields.Integer(compute="_bmi_calculation")
     apob_score = fields.Integer(compute="_bmi_calculation")
     hba1c_score = fields.Integer(compute="_bmi_calculation")
@@ -106,6 +106,8 @@ class SdHealthLabResults(models.Model):
                     'target': 'new'
                 }
 
+    def print_results(self):
+        return self.env.ref('sd_health.lab_result_report').report_action(self)
 
     def normalize_score(self, value, thresholds):
         for limit, score in thresholds:

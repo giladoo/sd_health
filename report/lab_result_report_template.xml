@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="paper_header">
+            <div class="border border-dark rounded p-2">
+                <div class="row mx-0 p-2  border-bottom">
+                    <div class="col h2" t-esc="o.patient_id.name"></div>
+                    <div class="col h6" t-esc="'National ID: ' + o.patient_id.national_id"></div>
+                    <div class="col h6" t-esc="'Report Date: ' + data['date']"></div>
+                </div>
+                <div class="row mx-0 p-2">
+
+                    <div class="col h6" t-esc="'Age: ' + str(o.age)"></div>
+                    <div class="col h6" t-esc="'Gender: ' + o.patient_id.gender"></div>
+                    <div class="col h6" t-esc="'Weight: ' + str(o.weight) + ' kg'"></div>
+                    <div class="col h6" t-esc="'Height: ' + str(o.patient_id.height) + ' cm'"></div>
+                </div>
+
+            </div>
+
+        </template>
+
+        <template id="paper_body">
+            <div class="row mx-0 mt-5" style="font-family: Arial !important;">
+                <div class="col mx-1">
+                    <div class="h3">Lab Test</div>
+                    <div class="border border-dark rounded p-2">
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4 px-1">Hba1C</div>
+                            <div class="col-8" t-esc="o.hba1c" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">lpa</div>
+                            <div class="col-8" t-esc="o.lpa" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">apob</div>
+                            <div class="col-8" t-esc="o.apob" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">hs_crp</div>
+                            <div class="col-8" t-esc="o.hs_crp" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">sbp</div>
+                            <div class="col-8" t-esc="o.sbp" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">total_chol</div>
+                            <div class="col-8" t-esc="o.total_chol" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">hdl</div>
+                            <div class="col-8" t-esc="o.hdl" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 ">
+                            <div class="col-4  px-1">smoker</div>
+                            <div class="col-8" t-esc="'Yes' if o.smoker else 'No'"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col mx-1">
+                    <div class="h3">Scores</div>
+                    <div class="border border-dark rounded p-2">
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">BMI</div>
+                            <div class="col-8" t-esc="o.bmi" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">LPA Score</div>
+                            <div class="col-8" t-esc="o.lpa_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">APOB Score</div>
+                            <div class="col-8" t-esc="o.apob_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">HBA1C Score</div>
+                            <div class="col-8" t-esc="o.hba1c_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">HSCRP Score</div>
+                            <div class="col-8" t-esc="o.hscrp_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">Age Score</div>
+                            <div class="col-8" t-esc="o.age_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">BMI Score</div>
+                            <div class="col-8" t-esc="o.bmi_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">SBP Score</div>
+                            <div class="col-8" t-esc="o.sbp_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">Chol Score</div>
+                            <div class="col-8" t-esc="o.chol_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">Smoker Score</div>
+                            <div class="col-8" t-esc="o.smoker_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1">Total Score</div>
+                            <div class="col-8" t-esc="o.total_score" style="font-family: Arial !important;"></div>
+                        </div>
+                        <div class="row mx-0 border-bottom">
+                            <div class="col-4  px-1" style="font-family: Arial !important;">Risk 10 yr</div>
+                            <div class="col-8 sd_ltr" t-esc="round(o.risk_10yr, 3)" style="font-family: Arial !important;" ></div>
+                        </div>
+                        <div class="row mx-0 ">
+                            <div class="col-4  px-1">Risk Level</div>
+                            <div class="col-8" t-esc="o.risk_level"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div style="page-break-after:always"></div>
+
+        </template>
+
+
+        <!-- ############################  INTERNAL Daily Report   ############################ -->
+
+        <template id="lab_result_report_paper">
+            <div class="header  o_force_ltr">
+                <t t-call="sd_health.paper_header"/>
+            </div>
+            <div class="page">
+                <t t-call="sd_health.paper_body"/>
+            </div>
+            <div class="footer p-0">
+                <div class="text-center x-small p-0">
+                    <span class="page"></span>
+                    /
+                    <span class="topage"></span>
+                </div>
+
+            </div>
+        </template>
+
+        <!-- ############################  GENERAL   ######################################### -->
+
+        <template id="lab_result_template">
+            <t t-foreach="docs" t-as="o">
+                <t t-set="lang" t-value="o.env.context.get('lang')"/>
+                <t t-call="web.basic_layout" t-lang="'en_US'">
+                    <div class="page1 o_force_ltr">
+                        <t t-call="sd_health.lab_result_report_paper" t-lang="'en_US'"/>
+                    </div>
+                </t>
+
+            </t>
+        </template>
+
+    </data>
+</odoo>

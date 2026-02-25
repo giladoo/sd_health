@@ -1,0 +1,590 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sd_health
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-25 06:19+0000\n"
+"PO-Revision-Date: 2026-02-25 09:59+0330\n"
+"Last-Translator: Arash Homayounfar <homayounfar@msn.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: fa_IR\n"
+"X-Generator: Poedit 2.2\n"
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_patients__blood_group__ab+
+msgid "AB+"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_patients__blood_group__ab-
+msgid "AB-"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_needaction
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_ids
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_exception_decoration
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_state
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_type_icon
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: sd_health
+#: model:res.groups,name:sd_health.group_admins
+msgid "Admins"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__age
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__age
+msgid "Age"
+msgstr "سن"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__age_score
+msgid "Age Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__apob
+msgid "Apob"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__apob_score
+msgid "Apob Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_attachment_count
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__birth_date
+msgid "Birth Date"
+msgstr "تاریخ تولد"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__blood_group
+msgid "Blood Group"
+msgstr "گروه خونی"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__bmi
+msgid "Bmi"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__bmi_score
+msgid "Bmi Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__chol_score
+msgid "Chol Score"
+msgstr ""
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+msgid "Close"
+msgstr "بستن"
+
+#. module: sd_health
+#: model:ir.ui.menu,name:sd_health.configuration_menu
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__create_uid
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__create_date
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__description
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__description
+msgid "Description"
+msgstr "توضیحات"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__display_name
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: sd_health
+#: model:res.groups,name:sd_health.group_doctors
+msgid "Doctors"
+msgstr "پزشکان"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__drug_sensitivity
+msgid "Drug Sensitivity"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__emergency_phone
+msgid "Emergency Phone"
+msgstr "تلفن اضطراری"
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_patients__gender__female
+msgid "Female"
+msgstr "زن"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_follower_ids
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_partner_ids
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__activity_type_icon
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__gender
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__gender
+msgid "Gender"
+msgstr "جنسیت"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__has_message
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__hba1c
+msgid "Hba1C"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__hba1c_score
+msgid "Hba1C Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__hdl
+msgid "Hdl"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.ui.menu,name:sd_health.health_menu
+msgid "Health"
+msgstr "سلامت"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__height
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__height
+msgid "Height"
+msgstr "قد"
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_lab_results__risk_level__high
+msgid "High"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__hs_crp
+msgid "Hs Crp"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__hscrp_score
+msgid "Hscrp Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__id
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__id
+msgid "ID"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_exception_icon
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__activity_exception_icon
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__message_needaction
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__message_has_error
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__image
+msgid "Image"
+msgstr "تصویر"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_is_follower
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.actions.act_window,name:sd_health.lab_show_results_act_window
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__lab_result_id
+msgid "Lab Result"
+msgstr "نتیجه آزمایش"
+
+#. module: sd_health
+#: model:ir.ui.menu,name:sd_health.lab_results_menu
+msgid "Lab Results"
+msgstr "نتایج آزمایش"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__write_uid
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__write_date
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_lab_results__risk_level__low
+msgid "Low"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__lpa
+msgid "Lpa"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__lpa_score
+msgid "Lpa Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_patients__gender__male
+msgid "Male"
+msgstr "مرد"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__medication_records
+msgid "Medication Records"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_has_error
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_ids
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__mobile_no
+msgid "Mobile No"
+msgstr "شماره موبایل"
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_lab_results__risk_level__moderate
+msgid "Moderate"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__my_activity_date_deadline
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__name
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__name
+#: model_terms:ir.ui.view,arch_db:sd_health.patients_form
+msgid "Name"
+msgstr "نام"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__national_id
+msgid "National"
+msgstr "کدملی"
+
+#. module: sd_health
+#. odoo-python
+#: code:addons/sd_health/models/lab_results.py:0
+msgid "New"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_date_deadline
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_summary
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_type_id
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_needaction_counter
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__message_has_error_counter
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__message_needaction_counter
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__message_has_error_counter
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__old_disease
+msgid "Old Disease"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_patients__gender__other
+msgid "Other"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__patient_id
+msgid "Patient"
+msgstr "مراجعه کننده"
+
+#. module: sd_health
+#: model:ir.actions.act_window,name:sd_health.patients_act_window
+#: model:ir.model,name:sd_health.model_sd_health_patients
+#: model:ir.ui.menu,name:sd_health.patients_menu
+msgid "Patients"
+msgstr "مراجعه کنندگان"
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+msgid "Personal Information"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__present_disease
+msgid "Present Disease"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__record_date
+msgid "Record Date"
+msgstr "تاریخ"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__activity_user_id
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_results_form
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+msgid "Result ID"
+msgstr ""
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_results_form
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_results_list
+#: model_terms:ir.ui.view,arch_db:sd_health.patients_form
+msgid "Results"
+msgstr "نتایج"
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__risk_10yr
+msgid "Risk 10Yr"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__risk_level
+msgid "Risk Level"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__sbp
+msgid "Sbp"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__sbp_score
+msgid "Sbp Score"
+msgstr ""
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+msgid "Scores"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__smoker
+msgid "Smoker"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__smoker_score
+msgid "Smoker Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__smoking_drug_history
+msgid "Smoking Drug History"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__activity_state
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_patients__surgery_hospitalization
+msgid "Surgery Hospitalization"
+msgstr ""
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+msgid "Test Results"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__total_chol
+msgid "Total Chol"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__total_score
+msgid "Total Score"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,help:sd_health.field_sd_health_lab_results__activity_exception_decoration
+#: model:ir.model.fields,help:sd_health.field_sd_health_patients__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: sd_health
+#: model:res.groups,name:sd_health.group_users
+msgid "Users"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_lab_results__risk_level__very_high
+msgid "Very High"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields.selection,name:sd_health.selection__sd_health_lab_results__risk_level__very_low
+msgid "Very Low"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.model.fields,field_description:sd_health.field_sd_health_lab_results__weight
+msgid "Weight"
+msgstr "وزن"
+
+#. module: sd_health
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_results_form
+#: model_terms:ir.ui.view,arch_db:sd_health.lab_show_results_form
+#: model_terms:ir.ui.view,arch_db:sd_health.patients_form
+msgid "e.g. Sight problem"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.actions.act_window,name:sd_health.lab_results_act_window
+#: model:ir.model,name:sd_health.model_sd_health_lab_results
+msgid "lab_results"
+msgstr ""
+
+#. module: sd_health
+#: model:ir.module.category,description:sd_health.module_category_sd_health
+msgid "requests."
+msgstr ""
+
+#. module: sd_health
+#: model:ir.module.category,name:sd_health.module_category_sd_healt
