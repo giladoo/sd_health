@@ -29,8 +29,8 @@
 <!--        <field name="print_report_name">(object._get_report_filename('sd_health.lab_result'))</field>-->
             <field name="print_report_name">'LabResults - %s' % (object.name)</field>
         <field name="paperformat_id" ref="lab_result_a4"/>
-<!--        <field name="binding_model_id" ref="model_sd_health_lab_results"/>-->
-<!--        <field name="binding_type">report</field>-->
+        <field name="binding_model_id" ref="model_sd_health_lab_results"/>
+        <field name="binding_type">report</field>
     </record>
 
 
