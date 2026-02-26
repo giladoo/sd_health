@@ -127,12 +127,8 @@
 
 
         <!-- ############################  INTERNAL Daily Report   ############################ -->
+
         <template id="lab_result_report_paper">
-            <div class="h1" t-esc="o.patient_id.name"></div>
-        </template>
-
-
-        <template id="lab_result_report_paper_1">
             <div class="header  o_force_ltr">
                 <t t-call="sd_health.paper_header"/>
             </div>
